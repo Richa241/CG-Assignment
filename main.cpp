@@ -601,9 +601,9 @@ void RenderAbout()
 	renderBitmapString(CenterWidth - 155.0, CenterHeight + 180, 0, GLUT_BITMAP_HELVETICA_18, s);
 	glPopMatrix();
 
-	sprintf(s, "CHUTKI             1BY17CS137");
+	sprintf(s, "RICHA PAREKH            1BY17CS137");
 	glPushMatrix();
-	glLoadIdentity();
+	glLoadIdentity(); 
 	glColor3f(1.0f, 1.0f, 1.0f);
 	renderBitmapString(CenterWidth - 155.0, CenterHeight + 210, 0, GLUT_BITMAP_HELVETICA_18, s);
 	glPopMatrix();
